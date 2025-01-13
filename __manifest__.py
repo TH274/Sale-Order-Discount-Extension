@@ -5,7 +5,7 @@
     'description': 'This module helps in managing the sales operations.',
     'author': 'Your Name',
     'category': 'Sales',
-    'depends': ['base', 'sale'],
+    'depends': ['base', 'sale','product'],
     'data': [
         'views/sale_order_discount_views.xml',
     ],
